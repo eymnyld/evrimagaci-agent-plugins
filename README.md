@@ -1,4 +1,4 @@
-# Evrim Ağacı for Claude
+# Evrim Ağacı for ChatGPT & Agent Plugins
 
 [Evrim Ağacı](https://evrimagaci.org) is Turkey's largest independent popular science platform. This plugin lets Claude search and read its editor-reviewed Turkish articles, curated Q&A answers, featured blogs, science dictionary, podcast show notes and Akademi reading lists, and cite every source it uses. With your permission, Claude can also save articles, publish in your name and follow approvals on evrimagaci.org.
 
