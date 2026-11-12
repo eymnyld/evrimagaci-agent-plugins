@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "evrimagaci",
+  "version": "1.1.0",
+  "description": "Search, read and cite Evrim Ağacı, Turkey's largest independent popular science platform. Check scientific claims against its editor-reviewed Turkish sources, summarize topics, build reading plans and get a daily digest. With your permission, it also saves, publishes and follows the approvals you give on evrimagaci.org.",
+  "author": {
+    "name": "Evrim Ağacı",
+    "url": "https://evrimagaci.org"
+  },
+  "homepage": "https://evrimagaci.org/mcp",
+  "repository": "https://github.com/eymnyld/evrimagaci-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "science",
+    "turkish",
+    "fact-check",
+    "evolution",
+    "education",
+    "reading"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Evrim Ağacı",
+        "shortDescription": "Search, read and cite Turkish science sources.",
+        "developerName": "eymnyld (community adaptation)",
+        "category": "Education",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://evrimagaci.org/mcp",
+        "privacyPolicyURL": "https://evrimagaci.org/s/6964",
+        "termsOfServiceURL": "https://evrimagaci.org/s/6961",
+        "defaultPrompt": [
+          "Evrim Ağacı’na göre CRISPR nedir? Kaynaklarıyla özetle.",
+          "Bugün Evrim Ağacı’nda ne var?"
+        ]
+      }
+    }
+  }
+}

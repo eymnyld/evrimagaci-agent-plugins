@@ -7,7 +7,7 @@ description: Check a scientific claim against Evrim Ağacı (evrimagaci.org) sou
 
 Evrim Ağacı is Turkey's largest independent popular science platform. Its editor-reviewed articles, curated Q&A answers, featured blogs, science dictionary and podcast show notes are in Turkish. This skill uses two read-only tools of the Evrim Ağacı connector: `search` and `fetch`. They change nothing on the user's account.
 
-If the connector is not connected, answer without these tools, say clearly that no Evrim Ağacı source was checked, and mention that connecting Evrim Ağacı from the plugin's Connectors tab adds cited Turkish sources.
+If the connector is not connected, answer without these tools, say clearly that no Evrim Ağacı source was checked, and explain that connecting `https://evrimagaci.org/mcp` through the client's MCP or connector settings adds cited Turkish sources. Tool names may carry a client-specific server prefix: use the discovered tools for the `evrimagaci` server, not unrelated tools with the same short name.
 
 ## Steps
 

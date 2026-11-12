@@ -5,6 +5,8 @@ description: Handle Evrim Ağacı (evrimagaci.org) approval requests and permiss
 
 # Approvals and permissions on Evrim Ağacı
 
+Use the discovered tools belonging to the `evrimagaci` MCP server. Clients may prefix tool names; the short names below identify those server tools, not unrelated tools with matching names. If unavailable, direct the user to their client's MCP or connector settings for `https://evrimagaci.org/mcp`.
+
 Some actions do not run when a tool is called. They wait for the user's own decision on evrimagaci.org, where the user is logged in:
 
 - every action that spends ATP, Evrim Ağacı's in-site points (the connector never spends money);
@@ -68,7 +70,7 @@ Searching and reading public content needs no sign-in and no permission. Account
 When a tool needs a sign-in or a permission the connection lacks:
 
 1. Tell the user, in one sentence, which permission the task needs and why.
-2. Claude then asks the user to sign in to Evrim Ağacı and allow it. With a personal key instead of a connection, the tool names the permission and the page https://evrimagaci.org/uye/yapay-zeka where the user allows it.
+2. Use the client’s supported authentication flow to let the user sign in to Evrim Ağacı and grant the required permission. If the client cannot authenticate, explain that limitation instead of claiming that permission was granted. With a personal key instead of a connection, the tool names the permission and the page https://evrimagaci.org/uye/yapay-zeka where the user allows it.
 3. After the user allows it, call the tool again once. This is different from an approval request, which you never retry.
 
 Ask only for the permissions the task needs. The user can remove any permission, or limit it to an hour, a day or a week, on https://evrimagaci.org/uye/yapay-zeka.

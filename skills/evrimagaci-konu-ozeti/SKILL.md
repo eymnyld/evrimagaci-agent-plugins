@@ -7,7 +7,7 @@ description: Summarize a science topic from Evrim Ağacı (evrimagaci.org) artic
 
 Evrim Ağacı publishes editor-reviewed Turkish articles, curated Q&A answers, featured blogs, a science dictionary and podcasts. This skill uses the Evrim Ağacı connector's read-only tools `search`, `fetch` and, when useful, `dictionary` and `related`. They change nothing on the user's account.
 
-If the connector is not connected, say so and point the user to the plugin's Connectors tab.
+If the Evrim Ağacı tools are unavailable, say so and direct the user to their client's MCP or connector settings to connect `https://evrimagaci.org/mcp`. Tool names may carry a client-specific server prefix: use the discovered tools for the `evrimagaci` server, not unrelated tools with the same short name.
 
 ## Steps
 

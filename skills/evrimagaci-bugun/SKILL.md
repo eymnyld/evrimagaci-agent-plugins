@@ -15,7 +15,7 @@ This skill reads, and changes nothing. It uses these Evrim Ağacı connector too
 | `apod` | today's astronomy picture entry, in Turkish | none, no sign-in |
 | `question_of_the_day` | today's question and its choices, never its answer | none, no sign-in |
 
-If the connector is not connected, say so and point the user to the plugin's Connectors tab.
+If the Evrim Ağacı tools are unavailable, say so and direct the user to their client's MCP or connector settings to connect `https://evrimagaci.org/mcp`. Tool names may carry a client-specific server prefix: use the discovered tools for the `evrimagaci` server, not unrelated tools with the same short name.
 
 ## Steps
 

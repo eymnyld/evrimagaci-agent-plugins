@@ -5,6 +5,8 @@ description: Publish, edit, delete or undo text on Evrim Ağacı (evrimagaci.org
 
 # Writing on Evrim Ağacı for the user
 
+Use the discovered tools belonging to the `evrimagaci` MCP server. Clients may prefix tool names; the short names below identify those server tools, not unrelated tools with matching names. If unavailable, direct the user to their client's MCP or connector settings for `https://evrimagaci.org/mcp`.
+
 Everything these tools publish appears under the user's own name, for other members to read. Publish only text the user wrote, or text the user approved word for word in this conversation.
 
 ## Before every publish

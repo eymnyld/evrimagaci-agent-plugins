@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "evrimagaci": {
-      "type": "http",
-      "url": "https://evrimagaci.org/mcp"
-    }
-  }
-}
